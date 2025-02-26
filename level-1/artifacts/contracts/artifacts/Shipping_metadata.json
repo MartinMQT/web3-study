@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					}
+				],
+				"name": "LogNewAlert",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "Delivered",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Shipped",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Status",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"level-1/contracts/Shipping.sol": "Shipping"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"level-1/contracts/Shipping.sol": {
+			"keccak256": "0xc4c5fcd2e0dddc40ba6a002dee4cce1a19d152f1ba5ed4b937eecbffdc795b8b",
+			"urls": [
+				"bzz-raw://a0c5b9fb3d3aed6f52a659993d4a137031d70c12419414ba9bd8332264d43718",
+				"dweb:/ipfs/QmbQ2KZDBeyRJcuk51mRMt6baXXRtf7PivhDZ1Nnd2mfmF"
+			]
+		}
+	},
+	"version": 1
+}
