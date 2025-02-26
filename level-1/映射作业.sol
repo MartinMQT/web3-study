@@ -34,12 +34,6 @@ contract MappingTest{
         int[] memory balanceHis = userBalanceMapHis[msg.sender];
         balanceHis.length +=1;
         balanceHis[balanceHis.length-1] = balance;
-
-        try {
-
-        }catch {
-            
-        }
     }
 
 }
